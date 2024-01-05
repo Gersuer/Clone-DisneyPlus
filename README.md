@@ -23,8 +23,3 @@ Com o node instalado e seu arquivo `.env` criado, basta abrir o cmd do diretóri
 #
 
 ![](./screenshot2.png)
-
-#demo
-[![Demo]()](./demo.mp4)
-
-
