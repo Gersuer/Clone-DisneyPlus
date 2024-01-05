@@ -20,8 +20,8 @@ Com o node instalado e seu arquivo `.env` criado, basta abrir o cmd do diretóri
 
 ## Screenshots
 
-![](/src/assets/screenshorts/screeshot1.png)
+![](./screenshot1.png)
 
 #
 
-![](/src/assets/screenshorts/screeshot2.png)
+![](./screenshot2.png)
