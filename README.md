@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Disney+ Clone
+Esse projeto foi criado apenas com o intuito de estudo, prática e desenvenvolvimento com as tecnologias React Js e Tailwind, sintam-se a vontade para dar sujestões e dicas de como eu poderia ter feito melhor, afinal meu intuito é realmente aprender as melhores práticas de programação.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Observações importantes
+- Esse projeto utiliza a API do TMDB, sendo assim para executa-lo é necessário que você crie sua conta para obter uma chave de acesso à API;
+- Uma vez criada sua conta e com sua chave em mãos baixe o projeto e crie um arquivo `.env` na raiz do projeto;
+- Ness arquivo crie duas variáveis:
+`VITE_REACT_APP_API_KEY = [sua chave]`
 
-Currently, two official plugins are available:
+`VITE_REACT_APP_API_URL = "https://api.themoviedb.org/3`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Iniciando o projeto
+É necessário ter o NodeJs instalado para poder rodar o projeto no seu ambiente, sendo assim para instala-lo basta baixar a ultima versão do node na [página](https://nodejs.org/en) deles.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para verificar se o node foi instalado e a versão basta digitar o comando no seu cmd:
+`node - v`
 
-- Configure the top-level `parserOptions` property like this:
+Com o node instalado e seu arquivo `.env` criado, basta abrir o cmd do diretório do projeto e digitar o comando `npm run dev`.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Screenshots
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![](/src/assets/screenshorts/screeshot1.png)
+
+#
+
+![](/src/assets/screenshorts/screeshot2.png)
