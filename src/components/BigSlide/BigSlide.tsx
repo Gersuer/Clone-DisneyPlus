@@ -24,13 +24,14 @@ const BigSlide = () => {
         getTrendingMovie()
     }, [])
 
-    console.log(elementRef.current?.offsetWidth)
 
     //Essa função vai ser responsável por fazer o slide "girar" para direita.
     const slideRight = () => {
         // Ele pega o elemento de referencia e associa à propriedade scrollLeft, essa prorpiedade define o número de pixels que um condeúdo é rolado para esquerda, por isso já foi pego a base da dimensão do elemento apresentavel na variável dimensionScreen = window.innerwidth
         if (elementRef.current) {
             console.log(elementRef.current.scrollLeft)
+            console.log(dimensionScreen)
+
             elementRef.current.scrollLeft += dimensionScreen;
         }
     }
@@ -38,6 +39,7 @@ const BigSlide = () => {
     const slideLeft = () => {
         if (elementRef.current) {
             console.log(elementRef.current.scrollLeft)
+            console.log(dimensionScreen)
             elementRef.current.scrollLeft -= dimensionScreen;
         }
     }

@@ -19,18 +19,16 @@ const MovieList = ({ id }: genreProps) => {
     const slideRight = () => {
         if (elementRef.current) {
             console.log(elementRef.current.scrollLeft)
-            elementRef.current.scrollLeft += dimensionScreen - 500;
+            elementRef.current.scrollLeft += dimensionScreen ;
         }
     }
     const slideLeft = () => {
         if (elementRef.current) {
             console.log(elementRef.current.scrollLeft)
-            elementRef.current.scrollLeft -= dimensionScreen - 500;
+            elementRef.current.scrollLeft -= dimensionScreen ;
         }
     }
-    if (list) {
-        console.log(list)
-    }
+
     return (
         <div className="w-full">
             <HiChevronLeft className='hidden md:block text-white absolute left-5 mt-24   cursor-pointer opacity-80 hover:opacity-100 duration-150 z-[1]' size={70} onClick={() => slideLeft()} />
